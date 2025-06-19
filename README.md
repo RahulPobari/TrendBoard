@@ -49,9 +49,3 @@ Start the server
 - View Others Profile
 - Add & Remove Friends
 
-
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
-
