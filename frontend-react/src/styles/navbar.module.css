@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers|Cinzel:400,700,900|Lato:100,300,400,700,900|Lobster|Lora:400,700|Mansalva|Muli:200,300,400,600,700,800,900|Open+Sans:300,400,600,700,800|Oswald:200,300,400,500,600,700|Roboto:100,300,400,500,700,900&display=swap');
+/* Used Google Fonts */
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Mansalva', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Muli', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Cinzel', serif;
+font-family: 'Bangers', cursive; */
+/* Used Google Fonts */
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  font-size:17px;
+  color:#424242;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/clean-gray-paper.png");
+}
+h1, h2, h3, h4, h5, h6, p{
+  margin:0px;
+  padding:0px;
+}
+
+/* ************************************************************************************** */
+/* NavBar Styles */
+.nav {
+  display: flex;
+  background: #fff;
+  padding: 10px 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+/* ************************************************************************************** */
+/* App Name & Logo Styles */
+.logo {
+  font-size: 35px;
+  font-family: 'Lobster', cursive;
+  /* font-family: "Lucida Handwriting", "Lucida Console", Monaco, monospace; */
+}
+.logo a{
+  color: #e74c3c;
+  text-decoration: none;
+}
+
+
+/* ************************************************************************************** */
+/* Searchbar Styles */
+.searchContainer {
+  flex-grow: 0.5;
+  /* padding: 0 20px; */
+  position: relative;
+  display: flex;
+}
+.searchContainer input {
+  background: #ffffff;
+  border: 1px solid #d0d0d0;
+  box-sizing: border-box;
+  border-radius: 3px;
+  height: 40px;
+  width: 100%;
+  font-size: 16px;
+  padding-left: 31px;
+  box-sizing: border-box;
+  flex-grow: 1;
+}
+.searchContainer input:focus {
+  outline: none;
+}
+.searchIcon {
+  height: 20px;
+  position: absolute;
+  top: 10px;
+  left: 7px;
+}
+.searchResults {
+  background: #fff;
+  flex-grow: 1;
+  border-radius: 0 0 3px 3px;
+  position: absolute;
+  width: 100%;
+  top: 40px;
+  border: 1px solid #e0e0e0;
+  z-index: 100;
+  max-height: 452px;
+  overflow: scroll;
+  /* display: none; */
+}
+.searchResults ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.searchResults ul a {
+  text-decoration: none;
+  color: black;
+}
+.searchResultsRow {
+  display: flex;
+  align-items: center;
+  padding: 9px 14px;
+}
+.searchResultsRow:hover {
+  background-color: #eceffa;
+  cursor: pointer;
+}
+.searchResultsRow img {
+  height: 27px;
+}
+
+
+/* ************************************************************************************** */
+/* UserInfo and Login/Logout Styles */
+.nav .rightNav {
+  display: flex;
+  /* color: #fff; */
+  color: #551A8B;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+}
+.nav .user a{
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+  padding: 0 5px;
+  text-decoration: none;
+}
+.nav .user a:hover {
+  text-decoration: underline;
+}
+
+.nav .userDp {
+  height: 40px;
+  margin-right: 5px;
+}
+
+.nav .navLinks{
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+}
+.nav .navLinks ul {
+  display: flex;
+  list-style-type: none;
+  vertical-align: middle;
+}
+.nav .navLinks ul li {
+  padding: 0 4px;
+  margin: auto;
+}
+.nav .navLinks ul li:hover {
+  cursor: pointer;
+}
+.nav .navLinks ul li a {
+  text-decoration: none;
+}
+.nav .navLinks ul li a:hover {
+  text-decoration: underline;
+}
+

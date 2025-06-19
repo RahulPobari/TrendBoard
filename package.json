@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "concurrently": "^8.2.1"
+  },
+  "scripts": {
+    "install" : "concurrently \"cd frontend-react && npm install && npm start\" \"cd backend-nodejs && npm install && npm start\"",
+    "start": "concurrently \"cd frontend-react && npm start\" \"cd backend-nodejs && npm start\"",
+    "update": "concurrently \"cd frontend-react && npm update\" \"cd backend-nodejs && npm update\""
+  }
+  
+}

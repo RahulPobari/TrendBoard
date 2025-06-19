@@ -1,0 +1,78 @@
+.settings {
+  display: block;
+  flex-direction: column;
+  background: #fff;
+  padding: 30px;
+  border-radius: 6px;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 40%;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.settings .imgContainer {
+  display: flex;
+  margin-bottom: 40px;
+  justify-content: center;
+}
+.settings .imgContainer img {
+  height: 100px;
+}
+.settings .btnGrp {
+  display: flex;
+  flex-direction: column;
+}
+.settings button {
+  border-radius: 6px;
+  padding: 10px;
+  width: fit-content;
+  font-size: 16px;
+  border-radius: 3px;
+  margin-top: 20px;
+}
+.settings button:hover {
+  cursor: pointer;
+}
+.settings button:focus {
+  outline: none;
+}
+.settings .editBtn {
+  border: 1px solid #ef7917;
+  box-sizing: border-box;
+  color: #ef7917;
+}
+.settings .saveBtn {
+  background: #ef7917;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+}
+.settings .goBack {
+  color: #ef7917;
+  margin-top: 7px;
+  font-size: 13px;
+}
+.settings .goBack:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.settings .field {
+  margin-bottom: 10px;
+}
+.settings .field .fieldLabel {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #9e9e9e;
+  padding: 5px 0;
+}
+.settings .field input {
+  margin-top: 6px;
+  width: 100%;
+  height: 35px;
+  font-size: 16px;
+  padding-left: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 6px;
+}
